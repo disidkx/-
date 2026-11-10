@@ -1,9 +1,17 @@
-class person():
-    def __init__(self):
-     self.hello="안녕하세요"
+class Person:
+    folder = []
 
-    def hi(self):
-       print(self.hello)
+    def add_files(self, file):
+        self.folder.append(file)
 
-jin= person()
-jin.hi()
+jin= Person()
+jin.add_files('txt')
+sewan = 10
+
+
+
+
+
+
+
+
